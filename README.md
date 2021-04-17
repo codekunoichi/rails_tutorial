@@ -22,5 +22,6 @@ URL = https://codekunoichi-first-app.herokuapp.com/
 5. `bundle loc --add-platform x86_64-linux` came from this URL https://stackoverflow.com/questions/4574176/heroku-push-rejected-failed-to-install-gems-via-bundler
 6. My heroku app's name is `codekunoichi-first-app`, so adding this to the rails tutorial folder is imperative `heroku git:remote -a codekunoichi-first-app` before you can do `git push heroku main`
 7. Note - I named my `master` branch `main`.
+8. You can omit the main/master branch from the command and just do `git push heroku`.
 
 
