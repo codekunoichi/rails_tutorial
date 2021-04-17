@@ -14,7 +14,7 @@ by [Michael Hartl](https://www.michaelhartl.com/). Hello, world!
 1. https://postgresapp.com/ Download the postgreSQL App locally. Initialize set port number, password.
 2. After you have added `gem 'pg', '1.2.3'` in your Gemfile, do `bundle install`
 
-### Deploying to Keroku
+### Deploying to Heroku
 3. Install Heroku CLI from https://devcenter.heroku.com/articles/heroku-cli follow the instruction to setup heroku autocomplete with login wired to your account.
 4. On your local mac, first time you will have trouble since it will complain about the mac version of unix system vs, heroku linux. Add this to the Gemfile.lock to ease the Heroku deployment glitch. 
 5. `bundle loc --add-platform x86_64-linux` came from this URL https://stackoverflow.com/questions/4574176/heroku-push-rejected-failed-to-install-gems-via-bundler
